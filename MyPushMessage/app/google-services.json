@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1016589976522",
+    "firebase_url": "https://mypushmessage-90cce.firebaseio.com",
+    "project_id": "mypushmessage-90cce",
+    "storage_bucket": "mypushmessage-90cce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016589976522:android:7840535e498940a6c88533",
+        "android_client_info": {
+          "package_name": "ru.geekbrains.mypushmessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016589976522-9pf3loci887ird32abkko7qbq1rqs6ma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.geekbrains.mypushmessage",
+            "certificate_hash": "472e1447c7da8b481833116b901b5f182920ee55"
+          }
+        },
+        {
+          "client_id": "1016589976522-tbpuvodf49je6lgmbmj3re2l5f24d63c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaKq-iYZCCTnTIHJJ2YW9yXCcI7BP96OE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016589976522-tbpuvodf49je6lgmbmj3re2l5f24d63c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
