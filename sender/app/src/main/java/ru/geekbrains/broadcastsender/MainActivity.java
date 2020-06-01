@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String NAME_MSG = "MSG";
     // Эта константа спрятана в Intent классе,
     // но именно при помощи ее можно поднять приложение
-    //public static final int FLAG_RECEIVER_INCLUDE_BACKGROUND = 0x01000000;
+    public static final int FLAG_RECEIVER_INCLUDE_BACKGROUND = 0x01000000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setAction(ACTION_SEND_MSG);
                 intent.putExtra(NAME_MSG, msg);
-                intent.addFlags(Intent.FLAG_ACTIVITY_PREVIOUS_IS_TOP);
+                intent.addFlags(FLAG_RECEIVER_INCLUDE_BACKGROUND);
                 //Intent.FLAG_RECEIVER_INCLUDE_BACKGROUND
                 sendBroadcast(intent);
             }
